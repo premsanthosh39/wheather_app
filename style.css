@@ -50,9 +50,10 @@ button:hover{
     width: 50%;
     margin: auto;
 }
-.weatherResult{
+.wheatherResult{
     display: flex;
     align-items: center;
     gap: 1rem;
     text-wrap: nowrap;
+
 }
