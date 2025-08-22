@@ -24,7 +24,7 @@ form.addEventListener('submit',async (event) => {
     <div class="results">
         <div class="wheatherResult">
             <i class="fa-solid fa-temperature-three-quarters"></i>
-            <p>Temperature : ${data.main.temp}Degree Celsius</p>
+            <p>Temperature : ${data.main.temp}&deg;C</p>
         </div>
         <div class="wheatherResult">
             <i class="fa-solid fa-temperature-half"></i>
@@ -44,4 +44,5 @@ form.addEventListener('submit',async (event) => {
     catch(error){
         wheatherresult.innerHTML = `<p>Error: ${error.message}</p>`;
     }
+
 });
